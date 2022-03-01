@@ -1,1 +1,5 @@
-# C-strings-
+# 1.strlen(a)
+# 2.strcpy(a,b)
+# 3.strcat(a,b)
+# 4.strcmp(a,b)
+# 5.strstr(a,b)
