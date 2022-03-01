@@ -1,1 +1,20 @@
+#include <stdio.h>
+#include <strings.h>
+#include <string.h>
+
+int main()
+{
+    char string1[]="hello world";
+    char string2[]="Hello World";
+
+    printf("Is string 1==string 2? %d\n",strcmp(string1,string2));
+    printf("Is string1==strng2 irrespective of case? %d\n",strcasecmp(string1,string2));
+
+    //strcasecmp is not case specific
+    //strcmp returns 0 is both strings are same and is case specific
+    //it returns >0 if the char in the second string as ascii bigger than that in the first one
+    //it returns <0 for the reverse case
+
+    return 0;
+}
 
