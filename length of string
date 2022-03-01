@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+
+    char word[]="Pneumonoultramicroscopicsilicovolcanoconiosis";
+    printf("The length of the word is: %d",strlen(word));
+    
+
+}
