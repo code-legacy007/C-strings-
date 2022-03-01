@@ -1,1 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+
+    char string1[]="My name: Alex";
+    char string2[]="name";
+
+    printf("%s",strstr(string1,string2));
+
+    //strcasestr is not case sensitive
+    //strstr prints from the part of the string1 which is present in string2
+
+
+    return 0;
+}
 
