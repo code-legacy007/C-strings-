@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+
+    char *source[45];printf("Enter a string: ");
+    //Prompting from a user
+    scanf("%[^\n]%*c",source);
+    char *target[45];strcpy(target,source);
+
+    printf("\nSource= %s",source);
+    printf("\nTarget= %s",target);
+
+
+}
